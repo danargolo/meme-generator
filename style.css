@@ -1,15 +1,9 @@
 #meme-image-container {
   width: 400px;
   height: 300px;
-  top: 100px;
+  margin: 60px 0;
   background-color: white;
   border: 1px solid black;
-  /* align-content: center; */ 
-}
-
-img {
-
-  
 }
 
 #meme-image {
@@ -21,10 +15,35 @@ img {
   position: absolute;
   text-align: center;
   margin: 0;
-  top: 270px;
+  top: 340px;
   left: 120px;
   color: white;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+}
 
+#btns-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  width: 350px;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+.img {
+  border: 2px solid black;
+  margin: 0 10px;
+  width: 200px;
+  height: 170px;
 }
